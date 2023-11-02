@@ -1,7 +1,10 @@
 # Exp-6-Synchornous-counters - up counter and down counter 
-### AIM: To implement 4 bit up and down counters and validate  functionality.
-### HARDWARE REQUIRED:  – PC, Cyclone II , USB flasher
-### SOFTWARE REQUIRED:   Quartus prime
+### AIM:
+To implement 4 bit up and down counters and validate  functionality.
+### HARDWARE REQUIRED: 
+– PC, Cyclone II , USB flasher
+### SOFTWARE REQUIRED:
+Quartus prime
 ### THEORY 
 
 ## UP COUNTER 
@@ -65,8 +68,9 @@ Program for flipflops  and verify its truth table in quartus using Verilog progr
 Developed by: SWETHA.S
 
 RegisterNumber: 212222230155 
-```
+
 UPCOUNTER:
+```
 module upcounter(A,clk);
 output reg [3:0]A;
 input clk;
@@ -78,8 +82,9 @@ A[2]=((A[3])^A[2]);
 A[3]=1^A[3];
 end
 endmodule
-
+```
 DOWNCOUNTER:
+```
 module downcounter(A,clk);
 output reg [3:0]A;
 input clk;
@@ -104,7 +109,8 @@ DOWNCOUNTER RTL:
 ### TIMING DIGRAMS FOR COUNTER  
 UPCOUNTER WAVEFORM:
 
-![image](https://github.com/swethaselvarajm/Exp-7-Synchornous-counters-/assets/119525603/bbd519d8-de7d-420b-b18e-9ab552da0de2)
+![image](https://github.com/swethaselvarajm/Exp-7-Synchornous-counters-/assets/119525603/12d93c22-046a-47ca-a22f-19881883e21a)
+
 
 DOWNCOUNTER WAVEFORM:
 
